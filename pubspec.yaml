@@ -1,0 +1,56 @@
+name: aire_listo
+description: "AireListo: planificador inteligente de actividades al aire libre basado en clima, calidad del aire y lugares cercanos."
+# Evita publicar el paquete por accidente en pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+# Se conserva la restricción del proyecto de clase.
+environment:
+  sdk: ^3.13.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Fechas y componentes de Material en español (selectores de fecha/hora).
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # Consumo de APIs REST (mismo paquete que el proyecto de clase).
+  http: ^1.5.0
+
+  # Gestión del estado.
+  provider: ^6.1.5
+
+  # Persistencia local sencilla (favoritos, planes, preferencias).
+  shared_preferences: ^2.5.3
+
+  # Ubicación por GPS y permisos.
+  geolocator: ^14.0.2
+
+  # Mapas con OpenStreetMap.
+  flutter_map: ^8.2.1
+  latlong2: ^0.9.1
+
+  # Abrir enlaces (atribuciones, documentación de las APIs).
+  url_launcher: ^6.3.2
+
+  cupertino_ui: any
+  material_ui: any
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Recursos gráficos que el equipo incorporará después.
+  # Ver assets/README.md para saber qué archivo va en cada carpeta.
+  # Las carpetas existen (con un archivo .gitkeep) para que la app compile
+  # aunque todavía no haya imágenes.
+  assets:
+    - assets/images/
+    - assets/icons/

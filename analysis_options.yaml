@@ -1,0 +1,19 @@
+# Configuración del analizador de Dart/Flutter.
+# Se conserva la base del proyecto de clase (flutter_lints) y se añaden
+# algunas reglas útiles para un proyecto académico.
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+    - web/**
+    - windows/**
+    - macos/**
+    - linux/**
+
+linter:
+  rules:
+    prefer_single_quotes: true
+    avoid_print: true
