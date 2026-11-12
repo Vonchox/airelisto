@@ -206,4 +206,4 @@ que reproducen la estructura documentada; **las pruebas no usan la red**.
   (licencia CC BY 4.0, uso no comercial gratuito).
 * Mapas y lugares: © [colaboradores de OpenStreetMap](https://www.openstreetmap.org/copyright)
   (licencia ODbL). La atribución se muestra sobre el mapa.
-* Proyecto base: taller de clase «Uso de APIs» (Alvarado).
+
